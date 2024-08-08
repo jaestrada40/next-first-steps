@@ -17,12 +17,14 @@ bun dev
 ```
 
 ```bash docker
-# crear la imagen
+# Crear la imagen
 docker build -t nextjs-first-steps . 
 
-# correr la imagen
+# Correr la imagen
 docker container run -p 3000:3000 nextjs-first-steps
 
+# Información para crea Dockerfile
+https://github.com/vercel/next.js/tree/canary/examples/with-docker
 
 ```
 
