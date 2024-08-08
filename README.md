@@ -16,8 +16,13 @@ pnpm dev
 bun dev
 ```
 
-```Docker
-Comandos
+```bash docker
+# crear la imagen
+docker build -t nextjs-first-steps . 
+
+# correr la imagen
+docker container run -p 3000:3000 nextjs-first-steps
+
 
 ```
 
